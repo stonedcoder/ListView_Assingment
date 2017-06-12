@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codingblocks_projects.vraun.listview_assingment.MainActivity">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="24sp"
+        android:hint="Android Flavour"
+        android:id="@+id/edit_text"
+        />
+
+    <Button
+        android:id="@+id/btn_addItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edit_text"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/edit_text"
+        android:text="Add"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        android:layout_below="@+id/edit_text"
+        android:layout_alignParentBottom="true">
+
+    </ListView>
+
+</RelativeLayout>
